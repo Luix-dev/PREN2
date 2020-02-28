@@ -8,11 +8,11 @@ app.addLabel("title", "UART Simulator")
 app.setLabelBg("title", "yellow")
 
 #GUI Design
-app.addLabel("gesch_details1", "Die Geschwindigkeit muss zwischen")
-app.addLabel("gesch_details2", "0 bis 21 sein. 21 heisst Rückwärts")
+#app.addLabel("gesch_details1", "Die Geschwindigkeit muss zwischen")
+#app.addLabel("gesch_details2", "0 bis 21 sein. 21 heisst Rückwärts")
 app.addLabelEntry("Geschwindigkeit")
-app.addLabel("winkel_details1", "Winkel muss zwischen")
-app.addLabel("winkel_details2", "0 bis 181 sein. 181 heisst eine Drehung")
+#app.addLabel("winkel_details1", "Winkel muss zwischen")
+#app.addLabel("winkel_details2", "0 bis 181 sein. 181 heisst eine Drehung")
 app.addLabelEntry("Winkel")
 
 # handle button events

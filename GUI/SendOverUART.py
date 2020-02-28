@@ -1,6 +1,6 @@
 import serial
 
-ser = serial.Serial(9600)
+#ser = serial.Serial(9600)
 
 #def sendOverUART(data):
     #ser.write(data)
