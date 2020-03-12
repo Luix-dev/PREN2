@@ -20,9 +20,9 @@ def press(button):
     if button == "Cancel":
         app.stop()
     else:
-        gesch = app.getEntry("Geschwindigkeit")
-        wink = app.getEntry("Winkel")
-        SendOverUART.saveData(gesch, wink)
+        gesch1 = app.getEntry("Geschwindigkeit")
+        gesch2 = app.getEntry("Winkel")
+        SendOverUART.SendOverUART(gesch1, gesch2)
         #print("Geschwindigkeit:", gesch, " Winkel:", wink)
 
 #Buttons
